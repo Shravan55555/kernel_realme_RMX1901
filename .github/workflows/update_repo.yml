@@ -31,8 +31,8 @@ jobs:
     - name: Update Repo
       id: sha
       run: |
-        git config --global user.name "ashim-anwar"
-        git config --global user.email "ashim.anwar22@gmail.com"
+        git config --global user.name "Shravan55555"
+        git config --global user.email "srasidda.ks@gmail.com"
         git submodule sync
         git submodule update --init --recursive
         cd $GITHUB_WORKSPACE/KernelSU
@@ -58,7 +58,7 @@ jobs:
           **KernelSU Build Started**
 
           Kernel Version : 4.9.337
-          Kernel Name : Amatera-SU
+          Kernel Name : SSK-SU
 
     - name: Install dependencies
       if: "${{ github.sha != steps.sha.outputs.NEW_SHA }}"
